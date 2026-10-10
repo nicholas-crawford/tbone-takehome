@@ -36,7 +36,7 @@
         "name": "bZ4X Touring",
         "isNew": true,
         "tagline": "Your greatest escape.",
-        "image": { "src": "images/bz4x-touring.png", "width": 1000, "height": 612, "alt": "" },
+        "image": { "src": "images/touring.jpg", "width": 1000, "height": 612, "alt": "" },
         "colours": [
           { "name": "Black", "swatch": "black" },
           { "name": "White", "swatch": "white" },
@@ -55,7 +55,7 @@
         "name": "bZ4X",
         "isNew": false,
         "tagline": "The Toyota feeling, electrified.",
-        "image": { "src": "images/bz4x.png", "width": 1000, "height": 612, "alt": "" },
+        "image": { "src": "images/bz4x.jpg", "width": 1000, "height": 612, "alt": "" },
         "colours": [
           { "name": "Black", "swatch": "black" },
           { "name": "White", "swatch": "white" },
