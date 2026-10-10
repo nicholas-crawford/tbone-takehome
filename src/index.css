@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import '@fontsource-variable/mulish';
+
+@theme {
+    /* Toyota Type wasn't supplied but placed there with assumption it would be. Mulish is close enough second. */
+    --font-sans: "Toyota Type", "Mulish Variable", sans-serif;
+
+    --color-ink: #1A1A1A;
+    --color-muted: #6E6E6E;
+    --color-specs: #3A3A3A;
+    --color-brand: #2468FF;
+    --color-line: #E6E6E6;
+    --color-divider: #EEEEEE;
+    --color-pill-line: #C9C9C9;
+    --color-swatch-ring: #D8D8D8;
+    --color-swatch--blue: #373D4D;
+    --color-swatch--red: #9E2D2C;
+    --color-swatch--dark-blue: #123265;
+    --color-swatch--darker-blue: #002060;
+    --color-swatch--darkest-grey: #5C5856;
+    --color-swatch--darker-grey: #757171;
+    --color-swatch--grey: #D8D8D8;
+    --color-footer: #111111;
+    --color-footer-text: #9A9A9A;
+    --color-footer-link: #CCCCCC;
+    --color-footer-fine: #777777;
+
+}
