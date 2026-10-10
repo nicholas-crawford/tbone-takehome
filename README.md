@@ -1,4 +1,4 @@
-# bZ4X offer page
+# T-Bone Take home project
 
 Live site: https://nicholas-crawford.github.io/tbone-takehome/
 
