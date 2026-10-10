@@ -11,7 +11,7 @@ const dirname = typeof import.meta.dirname !== 'undefined' ? import.meta.dirname
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
-  base: '/bz4x-offer/',
+  base: '/tbone-takehome/',
   plugins: [react(), tailwindcss()],
   test: {
     projects: [{
