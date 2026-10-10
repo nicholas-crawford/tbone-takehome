@@ -18,7 +18,7 @@ export function Button({ variant = "dark", className = "", children, ...props }:
             {...props}
             className={`inline-flex h-12 w-full items-center justify-center rounded-full border border-ink px-9.5 text-center text-[13px] font-semibold tracking-[0.16em] whitespace-nowrap sm:w-auto transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-transparent ${variantClasses[variant]} ${className}`}
         >
-            {children}
+           <span>{children}</span>
         </a>
     )
 }

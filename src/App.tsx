@@ -1,8 +1,11 @@
-function App() {
+import rawContent from "./content/bz4x.json"
+import { pageContentSchema } from "./content/schema"
+import { LandingPage } from "./pages/LandingPage"
 
-  return (
-    <p>Hello!</p>
-  )
+const content = pageContentSchema.parse(rawContent)
+
+function App() {
+    return <LandingPage content={content} />
 }
 
 export default App

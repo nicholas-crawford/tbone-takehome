@@ -7,9 +7,10 @@
     "heading": "Get a $5,000 Deposit Bonus[F30] on the All-Electric bZ4X",
     "subheading": "The Toyota feeling, electrified.",
     "image": {
-      "alt": "Three bZ4X electric SUVs parked on a lawn beside a lit glamping tent",
-      "mobile": { "src": "images/hero-mobile.jpg", "width": 750, "height": 672 },
-      "desktop": { "src": "images/hero-desktop.jpg", "width": 2880, "height": 1940 }
+      "src": "images/hero.jpg",
+      "width": 4096,
+      "height": 1663,
+      "alt": "Three bZ4X electric SUVs parked on a lawn beside a lit glamping tent"
     },
     "ctas": [
       { "label": "Get a quote on bZ4X Touring", "href": "https://www.toyota.com.au/car-finance/toyota-personalised-rate" },
@@ -36,7 +37,7 @@
         "name": "bZ4X Touring",
         "isNew": true,
         "tagline": "Your greatest escape.",
-        "image": { "src": "images/touring.jpg", "width": 1000, "height": 612, "alt": "" },
+        "image": { "src": "images/touring.jpg", "width": 1000, "height": 612, "alt": "Side view of a silver bZ4X Touring wagon with black wheel arches and roof rails" },
         "colours": [
           { "name": "Black", "swatch": "black" },
           { "name": "White", "swatch": "white" },
@@ -55,7 +56,7 @@
         "name": "bZ4X",
         "isNew": false,
         "tagline": "The Toyota feeling, electrified.",
-        "image": { "src": "images/bz4x.jpg", "width": 1000, "height": 612, "alt": "" },
+        "image": { "src": "images/bz4x.jpg", "width": 1000, "height": 612, "alt": "Side view of a dark grey bZ4X SUV with black wheel arches" },
         "colours": [
           { "name": "Black", "swatch": "black" },
           { "name": "White", "swatch": "white" },

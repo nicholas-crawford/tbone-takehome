@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
 import { expect } from 'storybook/test'
 
-import content from '../../public/content/bz4x.json'
+import content from '../content/bz4x.json'
 import { pageContentSchema } from '../content/schema'
 import { ModelCard } from '../features/ModelCard/ModelCard'
 

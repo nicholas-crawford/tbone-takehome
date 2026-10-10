@@ -3,12 +3,7 @@ import type { Model } from "../../content/schema"
 import { Button } from "../../components/Button/Button"
 import { FootnoteText } from "../../components/FootnoteText/FootnoteText"
 import { Swatch } from "../../components/Swatch/Swatch"
-
-const priceFormat = new Intl.NumberFormat("en-AU", {
-    style: "currency",
-    currency: "AUD",
-    maximumFractionDigits: 0,
-})
+import { formatPrice } from "../../utils/format"
 
 type ModelCardProps = {
     model: Model
@@ -59,7 +54,7 @@ export function ModelCard({ model }: ModelCardProps) {
 
                 <p className="pt-4 pb-0.5 text-[10px] leading-none tracking-[0.18em] text-muted">FROM</p>
                 <p className="text-2xl leading-none font-semibold">
-                    {priceFormat.format(model.priceFrom)}
+                    {formatPrice(model.priceFrom)}
                     <sup className="align-super text-[0.6em] leading-none">*</sup>
                 </p>
 

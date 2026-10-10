@@ -1,7 +1,7 @@
 import { render, screen, within } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
 
-import content from '../../../public/content/bz4x.json'
+import content from '../../content/bz4x.json'
 import { pageContentSchema } from '../../content/schema'
 import { ModelCard } from './ModelCard'
 

@@ -49,7 +49,7 @@ export const pageContentSchema = z.object({
         eyebrow: z.string(),
         heading: z.string(),
         subheading: z.string(),
-        image: z.object({ alt: z.string(), mobile: image, desktop: image }),
+        image: image.extend({ alt: z.string() }),
         ctas: z.array(cta).min(1),
     }),
     finance: z.object({
