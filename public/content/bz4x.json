@@ -1,0 +1,87 @@
+{
+  "offer": {
+    "endsAt": "2026-09-30T23:59:59+10:00"
+  },
+  "hero": {
+    "eyebrow": "Toyota Finance offer · Ends {endDate}",
+    "heading": "Get a $5,000 Deposit Bonus[F30] on the All-Electric bZ4X",
+    "subheading": "The Toyota feeling, electrified.",
+    "image": {
+      "alt": "Three bZ4X electric SUVs parked on a lawn beside a lit glamping tent",
+      "mobile": { "src": "images/hero-mobile.jpg", "width": 750, "height": 672 },
+      "desktop": { "src": "images/hero-desktop.jpg", "width": 2880, "height": 1940 }
+    },
+    "ctas": [
+      { "label": "Get a quote on bZ4X Touring", "href": "https://www.toyota.com.au/car-finance/toyota-personalised-rate" },
+      { "label": "Get a quote on bZ4X", "href": "https://www.toyota.com.au/car-finance/toyota-personalised-rate" }
+    ]
+  },
+  "finance": {
+    "eyebrow": "Toyota Finance",
+    "heading": "Jump start your deposit",
+    "body": [
+      "Get a $5,000 Deposit Bonus[F30] on new and demonstrator bZ4X 2WD, AWD (October 2025 build onwards), and bZ4X Touring with Toyota Finance. Max finance term 72 months. Excludes lease products. Offer ends {endDate}.",
+      "Calculate your Toyota Personalised Repayments in around 3 minutes. Your interest rate is tailored to you, and won't impact your credit score."
+    ],
+    "ctas": [
+      { "label": "Get a quote on bZ4X Touring", "href": "https://www.toyota.com.au/car-finance/toyota-personalised-rate" },
+      { "label": "Get a quote on bZ4X", "href": "https://www.toyota.com.au/car-finance/toyota-personalised-rate" }
+    ]
+  },
+  "models": {
+    "heading": "Which bZ4X is right for you?",
+    "items": [
+      {
+        "id": "bz4x-touring",
+        "name": "bZ4X Touring",
+        "isNew": true,
+        "tagline": "Your greatest escape.",
+        "image": { "src": "images/bz4x-touring.png", "width": 1000, "height": 612, "alt": "" },
+        "colours": [
+          { "name": "Black", "swatch": "black" },
+          { "name": "White", "swatch": "white" },
+          { "name": "Light grey", "swatch": "light-grey" },
+          { "name": "Grey", "swatch": "grey" },
+          { "name": "Dark grey", "swatch": "dark-grey" },
+          { "name": "Dark navy", "swatch": "dark-navy" }
+        ],
+        "specs": ["Up to 488km range[G69]", "280kW AWD · 603L boot", "1,500kg braked towing[G6] · V2L power"],
+        "priceFrom": 69990,
+        "bonusNote": "Eligible for $5,000 Deposit Bonus[F30]",
+        "cta": { "label": "Personalise", "href": "https://www.toyota.com.au/bz4x-touring/prices" }
+      },
+      {
+        "id": "bz4x",
+        "name": "bZ4X",
+        "isNew": false,
+        "tagline": "The Toyota feeling, electrified.",
+        "image": { "src": "images/bz4x.png", "width": 1000, "height": 612, "alt": "" },
+        "colours": [
+          { "name": "Black", "swatch": "black" },
+          { "name": "White", "swatch": "white" },
+          { "name": "Slate", "swatch": "slate" },
+          { "name": "Red", "swatch": "red" },
+          { "name": "Navy", "swatch": "navy" }
+        ],
+        "specs": ["Up to 591km range[G66] (2WD)", "167kW 2WD or 255kW AWD", "422L boot"],
+        "priceFrom": 55990,
+        "bonusNote": "Eligible for $5,000 Deposit Bonus[F30]",
+        "cta": { "label": "Personalise", "href": "https://www.toyota.com.au/bz4x-ev/prices" }
+      }
+    ],
+    "priceNote": "*Prices based on Sydney City Toyota, Waterloo, NSW 2017. Driveaway pricing varies by location. Enter your postcode in Build and Price to see yours."
+  },
+  "footer": {
+    "logo": { "src": "images/logo-placeholder.png", "width": 220, "height": 36, "alt": "Toyota: Oh What A Feeling" },
+    "acknowledgement": "Toyota Australia acknowledges the Traditional Owners and Custodians of lands throughout Australia. We pay our respects to Elders past and present, and the continuation of cultural, spiritual and educational practices of Aboriginal and Torres Strait Islander peoples.",
+    "links": [
+      { "label": "Privacy", "href": "https://www.toyota.com.au/policies/privacy-policy" },
+      { "label": "Conditions of use", "href": "https://www.toyota.com.au/policies/conditions" }
+    ],
+    "copyright": "Copyright 2026 Toyota Australia. All Rights Reserved."
+  },
+  "stickyCta": {
+    "label": "Book a test drive",
+    "href": "https://www.toyota.com.au/book-a-test-drive?CarSelectionOne=bz4x-ev"
+  }
+}
