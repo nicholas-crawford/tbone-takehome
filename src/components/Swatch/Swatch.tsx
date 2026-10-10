@@ -1,5 +1,5 @@
 import { useId } from "react"
-import type { Colour, SwatchKey } from "../content/schema"
+import type { Colour, SwatchKey } from "../../content/schema"
 
 const swatchBg: Record<SwatchKey, string> = {
     black: "bg-swatch--black",

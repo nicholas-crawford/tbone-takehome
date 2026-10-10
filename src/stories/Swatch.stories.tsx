@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite'
 import { expect } from 'storybook/test'
 
 import { swatchKeys } from '../content/schema'
-import { Swatch } from './Swatch'
+import { Swatch } from '../components/Swatch/Swatch'
 
 const meta = {
     title: 'Components/Swatch',
