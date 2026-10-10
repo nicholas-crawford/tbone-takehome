@@ -1,6 +1,6 @@
 # bZ4X offer page
 
-Live site: https://nicholas-crawford.github.io/bz4x-offer/
+Live site: https://nicholas-crawford.github.io/tbone-takehome/
 
 ## Contents
 
@@ -24,7 +24,7 @@ npm install
 npm run dev
 ```
 
-Vite serves the app at http://localhost:5173/bz4x-offer/. The `/bz4x-offer/` path comes from `base` in `vite.config.ts` and matches the GitHub Pages URL.
+Vite serves the app at [https://nicholas-crawford.github.io/tbone-takehome/](https://nicholas-crawford.github.io/tbone-takehome/). The `/tbone-takehome/` path comes from `base` in `vite.config.ts` and matches the GitHub Pages URL.
 
 To run Storybook:
 
